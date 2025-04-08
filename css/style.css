@@ -1,0 +1,113 @@
+/* header */
+/* header_top */
+header{ 
+    margin: 24px auto;
+    width: 1140px;
+}
+
+.header_top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo > figure {
+    background: url(/image/logo.jpg);
+    width: 191px;
+    height: 31px;
+    background-size: cover;
+}
+
+.header_right,
+.header_btn {
+    display: flex;
+    align-items: center;
+}
+
+.header_right {
+    gap: 24px;
+}
+
+.search_box {
+    background-color: #f7f7f7;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    padding: 4px 12px;
+}
+
+.search_box > input {
+    border: none;
+    background: none;
+    width: 210px;
+}
+
+.btn_serarch,
+.header_btn > li > button {
+    border: none;
+    background: none;
+}
+
+.header_btn > li > button > a {
+    color: #999;
+}
+
+/* header_bottom */
+.header_bottom {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.jewelry_goods, 
+.more_goods,
+.icon_box {
+    display: flex;
+    align-items: center;
+}
+
+.jewelry_goods > li,
+.more_goods > li,
+.icon_box > i {
+    margin-right: 24px;
+}
+
+.jewelry_goods > li {
+    font-weight: 600;
+}
+
+.jewelry_goods > li:last-child {
+    color: #999;
+}
+
+.more_goods > li {
+    font-weight: 600;
+    font-size: 12px;
+}
+
+/* main */
+/* advertise_container */
+
+/* coupon_container */
+.coupon_container {
+    background-color: #f7f7f7;
+    margin: 48px 0;
+    width: 1140px;
+}
+
+.coupon_top {
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.coupon_text_box > h2 {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.coupon_img_box > a > img {
+    height: 350px;
+}
