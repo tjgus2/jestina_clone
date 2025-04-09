@@ -12,7 +12,7 @@ header{
 }
 
 .logo > figure {
-    background: url(/image/logo.jpg);
+    background: url(./image/logo.jpg);
     width: 191px;
     height: 31px;
     background-size: cover;
@@ -202,7 +202,7 @@ header{
 }
 
 .goods1 > figure {
-    background: url(/image/goods1.jpg);
+    background: url(../image/goods1.jpg);
     width: 218px;
     height: 260px;
     background-size: cover;
@@ -210,7 +210,7 @@ header{
 }
 
 .goods2 > figure {
-    background: url(/image/good2.jpg);
+    background: url(../image/good2.jpg);
     width: 218px;
     height: 260px;
     background-size: cover;
@@ -252,8 +252,82 @@ header{
 }
 
 .for_children > figure {
-    background: url(/image/discount1.jpg);
+    background: url(../image/discount1.jpg);
     width: 564px;
     height: 564px;
     background-size: cover;
+}
+
+.for_spring > figure {
+    background: url(../image/discount2.jpg);
+    width: 564px;
+    height: 564px;
+    background-size: cover;
+}
+
+.children_text_box,
+.spring_text_box {
+    margin: 12px;
+}
+
+.children_text_box > h2,
+.spring_text_box > h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 12px 0;
+}
+
+.children_goods,
+.spring_goods {
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    padding: 12px;
+}
+
+.discount_content,
+.children_goods1, 
+.children_goods2, 
+.spring_goods1, 
+.spring_goods2,
+.children_goods1_text,
+.children_goods2_text,
+.spring_goods1_text,
+.spring_goods2_text {
+    display: flex;    
+    align-items: center;
+}
+
+.discount_content {
+    justify-content: space-between;
+}
+
+.children_goods1, 
+.children_goods2, 
+.spring_goods1, 
+.spring_goods2 {
+    justify-content: space-between;
+}
+
+.children_goods1 > a,
+.children_goods2 > a,
+.spring_goods1 > a,
+.spring_goods2 > a {
+    background-color: #2e26260a;
+    border-radius: 50%;
+}
+
+.children_goods1 > a > img, 
+.children_goods2 > a > img, 
+.spring_goods1 > a > img, 
+.spring_goods2 > a > img {
+    width: 110px;
+    height: 110px;
+}
+
+.children_goods1 > button,
+.children_goods2 > button,
+.spring_goods1 > button,
+.spring_goods2 > button {
+    background: none;
+    border: none;
 }
