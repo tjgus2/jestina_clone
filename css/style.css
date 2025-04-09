@@ -12,7 +12,7 @@ header{
 }
 
 .logo > figure {
-    background: url(./image/logo.jpg);
+    background: url(../image/logo.jpg);
     width: 191px;
     height: 31px;
     background-size: cover;
