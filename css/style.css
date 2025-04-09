@@ -93,22 +93,21 @@ header{
 }
 
 /* coupon_container */
-.coupon_container {
+.coupon_container1 {
     margin: 48px auto;
     width: 100%;
-}
-
-.all_coupon {
-    margin: 0 auto;
-    width: 900px;
+    background-color: #f7f7f7;
 }
 
 .coupon_top {
-    padding: 50px;
     height: 350px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.coupon_text_box {
+    width: 570px;
 }
 
 .coupon_text_box > h2 {
@@ -123,27 +122,35 @@ header{
     text-align: center;
 }
 
+.coupon_img_box {
+    width: 576px;
+}
+
 .coupon_img_box > a > img {
-    height: 300px;
+    height: 350px;
+}
+
+.coupon_container2 { 
+    width: 100%;
 }
 
 .coupon_bottom {
-    background-color: #fff;
-    margin: 16px auto;
+    margin: 20px auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 14px;
 }
 
 .coupon_bottom > div > a > img {
-    width: 450px;
+    width: 564px;
 }
 
 /* pick_container */
 .pick_container { 
-    width: 1000px;
-    margin: 0 auto;
+    width: 1140px;
+    margin: 48px auto;
 }
+
 .pick_container > h2 {
     margin-bottom: 24px;
     font-size: 28px;
@@ -156,12 +163,12 @@ header{
 }
 
 .pick_content > a > img {
-    width: 576px;
+    width: 540px;
     height: 576px;
 }
 
 .pick_text_box {
-    margin: 24px 36px;
+    padding: 24px 48px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -173,12 +180,14 @@ header{
 }
 
 .pick_text > h3 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
 }
 
 .pick_goods {
-    margin-top: 36px;
+    margin-top: 24px;
+    position: relative;
+    gap: 8px;
 } 
 
 .pick_goods::before {
@@ -188,6 +197,8 @@ header{
     height: 1px;
     background-color: #999;
     position: absolute;
+    top: -80px;
+    left: 0;
 }
 
 .goods1 > figure {
@@ -195,11 +206,54 @@ header{
     width: 218px;
     height: 260px;
     background-size: cover;
+    margin-bottom: 8px;
 }
 
 .goods2 > figure {
     background: url(/image/good2.jpg);
     width: 218px;
     height: 260px;
+    background-size: cover;
+    margin-bottom: 8px;
+}
+
+.goods1,
+.goods2 {
+    width: 218px;
+}
+
+.goods1 > p:nth-child(3),  
+.goods2 > p:nth-child(3) {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 12px;
+}
+
+.goods1 > p:last-child,  
+.goods2 > p:last-child {
+    font-weight: 600;
+}
+
+/* discount_container */
+.discount_container {
+    width: 1140px;
+    margin: 24px auto;
+}
+
+.discount_top {
+    display: flex;
+    align-items: center;
+}
+
+.discount_top > h2 {
+    margin: 12px 12px 12px 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.for_children > figure {
+    background: url(/image/discount1.jpg);
+    width: 564px;
+    height: 564px;
     background-size: cover;
 }
